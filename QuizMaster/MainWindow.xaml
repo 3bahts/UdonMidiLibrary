@@ -14,9 +14,9 @@
         <Label Content="MIDIデバイス" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <Button x:Name="ButtonConnect" Content="接続" HorizontalAlignment="Right" Margin="0,13,105,0" VerticalAlignment="Top" Click="ButtonConnect_Click"/>
         <Label Content="問題文" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
-        <TextBox Margin="10,98,10,119" TextWrapping="Wrap" Text="{Binding Question}"/>
+        <TextBox Margin="10,98,10,119" TextWrapping="Wrap" Text="{Binding Question}" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Auto"/>
         <Label Content="解答" HorizontalAlignment="Left" Margin="10,0,0,88" Height="26" VerticalAlignment="Bottom"/>
-        <TextBox Margin="10,0,10,35" TextWrapping="Wrap" Text="{Binding Answer}" Height="53" VerticalAlignment="Bottom"/>
+        <TextBox Margin="10,0,10,35" TextWrapping="Wrap" Text="{Binding Answer}" Height="53" VerticalAlignment="Bottom" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible" AcceptsReturn="True"/>
         <Button x:Name="ButtonSend" Content="クイズ送信" Margin="0,0,10,10" HorizontalAlignment="Right" Width="55" Height="20" VerticalAlignment="Bottom" IsEnabled="{Binding EnableSend}" Click="ButtonSend_Click"/>
         <Label Content="タイトル" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
         <TextBox Margin="61,45,10,0" TextWrapping="Wrap" Text="{Binding Title}" VerticalAlignment="Top"/>
