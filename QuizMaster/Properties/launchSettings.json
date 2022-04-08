@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "QuizMaster": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdonMidiOutput", "UdonMidiInput\UdonMidiOutput.csproj", "{A44DC927-6A73-49B3-A3B1-ADE3390EF374}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizMaster", "QuizMaster\QuizMaster.csproj", "{7CDC8D55-F7F0-4C71-9DB8-6B8A768310F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{6EFE4228-C36A-46C5-8378-E7F27B5C43BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86", "x86", "{AAECA63D-6F61-46AE-A719-6AF5E0B2E65B}"
+	ProjectSection(SolutionItems) = preProject
+		Library\x86\MIDIIO.dll = Library\x86\MIDIIO.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x64", "x64", "{89F8A092-F8B1-4871-8213-9ACDE9AD6AAF}"
+	ProjectSection(SolutionItems) = preProject
+		Library\x64\MIDIIO.dll = Library\x64\MIDIIO.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A44DC927-6A73-49B3-A3B1-ADE3390EF374}.Debug|x64.ActiveCfg = Debug|x86
+		{A44DC927-6A73-49B3-A3B1-ADE3390EF374}.Debug|x86.ActiveCfg = Debug|x86
+		{A44DC927-6A73-49B3-A3B1-ADE3390EF374}.Debug|x86.Build.0 = Debug|x86
+		{A44DC927-6A73-49B3-A3B1-ADE3390EF374}.Release|x64.ActiveCfg = Release|x64
+		{A44DC927-6A73-49B3-A3B1-ADE3390EF374}.Release|x64.Build.0 = Release|x64
+		{A44DC927-6A73-49B3-A3B1-ADE3390EF374}.Release|x86.ActiveCfg = Release|x86
+		{A44DC927-6A73-49B3-A3B1-ADE3390EF374}.Release|x86.Build.0 = Release|x86
+		{7CDC8D55-F7F0-4C71-9DB8-6B8A768310F5}.Debug|x64.ActiveCfg = Debug|x86
+		{7CDC8D55-F7F0-4C71-9DB8-6B8A768310F5}.Debug|x86.ActiveCfg = Debug|x86
+		{7CDC8D55-F7F0-4C71-9DB8-6B8A768310F5}.Debug|x86.Build.0 = Debug|x86
+		{7CDC8D55-F7F0-4C71-9DB8-6B8A768310F5}.Release|x64.ActiveCfg = Release|x64
+		{7CDC8D55-F7F0-4C71-9DB8-6B8A768310F5}.Release|x64.Build.0 = Release|x64
+		{7CDC8D55-F7F0-4C71-9DB8-6B8A768310F5}.Release|x86.ActiveCfg = Release|x86
+		{7CDC8D55-F7F0-4C71-9DB8-6B8A768310F5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAECA63D-6F61-46AE-A719-6AF5E0B2E65B} = {6EFE4228-C36A-46C5-8378-E7F27B5C43BA}
+		{89F8A092-F8B1-4871-8213-9ACDE9AD6AAF} = {6EFE4228-C36A-46C5-8378-E7F27B5C43BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EA27770-F865-4C60-B5CA-1F2548F1E4EA}
+	EndGlobalSection
+EndGlobal

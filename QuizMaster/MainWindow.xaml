@@ -1,0 +1,25 @@
+﻿<Window x:Class="QuizMaster.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuizMaster"
+        mc:Ignorable="d"
+        Title="QuizMaster" Height="331" Width="440">
+    <Window.DataContext>
+        <local:QuestionModel x:Name="Question" Answer="解答をここに貼り付ける。" Question="問題文をここに貼り付ける。" Title="タイトルをここに張り付ける。"/>
+    </Window.DataContext>
+    <Grid>
+        <ComboBox Margin="82,12,138,0" VerticalAlignment="Top" ItemsSource="{Binding MidiDevices, Mode=OneWay}" SelectedItem="{Binding SelectedDevice}"/>
+        <Label Content="MIDIデバイス" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ButtonConnect" Content="接続" HorizontalAlignment="Right" Margin="0,13,105,0" VerticalAlignment="Top" Click="ButtonConnect_Click"/>
+        <Label Content="問題文" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <TextBox Margin="10,98,10,119" TextWrapping="Wrap" Text="{Binding Question}"/>
+        <Label Content="解答" HorizontalAlignment="Left" Margin="10,0,0,88" Height="26" VerticalAlignment="Bottom"/>
+        <TextBox Margin="10,0,10,35" TextWrapping="Wrap" Text="{Binding Answer}" Height="53" VerticalAlignment="Bottom"/>
+        <Button x:Name="ButtonSend" Content="クイズ送信" Margin="0,0,10,10" HorizontalAlignment="Right" Width="55" Height="20" VerticalAlignment="Bottom" IsEnabled="{Binding EnableSend}" Click="ButtonSend_Click"/>
+        <Label Content="タイトル" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <TextBox Margin="61,45,10,0" TextWrapping="Wrap" Text="{Binding Title}" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
