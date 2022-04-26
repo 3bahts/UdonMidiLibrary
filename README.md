@@ -7,7 +7,7 @@ UdonMidiLibraryはVRChatのワールドに対して、MIDIを介して文字列�
 
 ## ダウンロード
 
-[ダウンロード](Release/QuizMaster.zip)
+[ダウンロード](https://github.com/3bahts/UdonMidiLibrary/raw/master/Release/QuizMaster.zip)
 
 ## 前準備
 
