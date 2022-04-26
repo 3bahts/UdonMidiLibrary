@@ -19,6 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x64", "x64", "{89F8A092-F8B
 		Library\x64\MIDIIO.dll = Library\x64\MIDIIO.dll
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{1B68C3C0-74E8-4D2B-B5A6-4843EC260F3D}"
+	ProjectSection(SolutionItems) = preProject
+		Release\QuizMaster.zip = Release\QuizMaster.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
